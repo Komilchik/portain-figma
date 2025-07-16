@@ -84,7 +84,7 @@ header .container .menu {
 }
 @media only screen and (max-width:766px){
     .img-one .container .img img{
-        width: 800px;
+        width: 90%;
     }
 }
 
@@ -164,7 +164,7 @@ header .container .menu {
         flex-wrap: wrap;
     }
     .kost .container .hero .hero-left img{
-        width: 220%;
+        width: 245%;
     }
 }
 
