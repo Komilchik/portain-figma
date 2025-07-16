@@ -84,7 +84,7 @@ header .container .menu {
 }
 @media only screen and (max-width:766px){
     .img-one .container .img img{
-        width: 90%;
+        width: 280%;
     }
 }
 
