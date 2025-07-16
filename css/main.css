@@ -44,6 +44,9 @@ header .container .menu {
 }
 
 @media only screen and (max-width:766px) {
+    header{
+        width: 100%;
+    }
     header .container {
         justify-content: space-between;
     }
@@ -55,7 +58,10 @@ header .container .menu {
     header .container .menu {
         display: block;
     }
-
+     header .container nav{
+        justify-content: space-between;
+        margin-left: 550px;
+     }          
 
     header .container nav ul li {
         display: none;
@@ -103,6 +109,9 @@ header .container .menu {
     .sezon .container .hero {
         flex-wrap: wrap;
     }
+    .sezon .container .hero .hero-right img{
+        width: 95%;
+    }
     .sezon .container .hero .hero-left img{
         width: 800px;   
     }
@@ -148,8 +157,14 @@ header .container .menu {
     border: 2px solid white;
 }
 @media only screen and (max-width:766px){
+    .kost{
+        width: 100%;
+    }
     .kost .container .hero{
         flex-wrap: wrap;
+    }
+    .kost .container .hero .hero-left img{
+        width: 220%;
     }
 }
 
@@ -181,7 +196,7 @@ header .container .menu {
 }
 @media only screen and (max-width:766px){
     .olti .container .cards .card img{
-        width: 500px;
+        width: 220%;
     }
 }
 
