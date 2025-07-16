@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+header {
+    padding: 30px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container nav ul {
+    display: flex;
+    gap: 20px;
+
+}
+
+header .container .menu {
+    display: none;
+}
+
+@media only screen and (max-width:766px) {
+    header .container {
+        justify-content: space-between;
+    }
+
+    header .container .log-btn {
+        display: none;
+    }
+
+    header .container .menu {
+        display: block;
+    }
+
+
+    header .container nav ul li {
+        display: none;
+    }
+
+    header .container nav ul img {
+        justify-content: space-between;
+    }
+}
+
+.img-one .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-one .container .img img {
+    width: 100%;
+
+}
+@media only screen and (max-width:766px){
+    .img-one .container .img img{
+        width: 800px;
+    }
+}
+
+.sezon .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sezon .container .hero {
+    display: flex;
+}
+
+.sezon .container .hero .hero-left img {
+    width: 100%;
+}
+
+.sezon .container .hero .hero-right img {
+    width: 100%;
+}
+@media only screen and (max-width:766px){
+    .sezon .container .hero {
+        flex-wrap: wrap;
+    }
+    .sezon .container .hero .hero-left img{
+        width: 800px;   
+    }
+}
+
+.kost .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kost .container .hero {
+    display: flex;
+    align-items: center;
+}
+
+.kost .container .hero .hero-right h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.kost .container .hero .hero-right hr {
+    width: 120px;
+    height: 0;
+}
+
+.kost .container .hero .hero-right p {
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.kost .container .hero .hero-right .post-btn {
+    width: 311px;
+    height: 47px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+@media only screen and (max-width:766px){
+    .kost .container .hero{
+        flex-wrap: wrap;
+    }
+}
+
+.olti {
+    margin-top: 120px;
+}
+
+.olti .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.olti .container .cards {
+    text-align: center;
+}
+
+.olti .container .cards .h1 h1 {
+    padding-bottom: 121px;
+    text-transform: uppercase;
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+@media only screen and (max-width:766px){
+    .olti .container .cards .card img{
+        width: 500px;
+    }
+}
+
+.brend {
+    margin-top: 210px;
+}
+
+.brend .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brend .container .logo1 .logo h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 400 px;
+}
+
+.brend .container .logo1 .coco {
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.brend .container .logo1 .coco img {
+    gap: 30px;
+}
+
+.about {
+    margin-top: 150px;
+    background-image: url(../imges/Rectangle\ 15.png);
+}
+
+.about .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .container .about1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.about .container .about1 .h1 h1 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.about .container .about1 .h1 p {
+    color: white;
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+}
+@media only screen and (max-width:766px){
+    footer .about{
+        width: 100%;
+    }
+}
